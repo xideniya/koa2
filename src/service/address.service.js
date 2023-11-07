@@ -1,5 +1,4 @@
 const Address = require('../model/address.model')
-const {where} = require("sequelize");
 
 class AddressService {
     async createAddress(info) {
